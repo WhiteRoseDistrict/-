@@ -96,6 +96,11 @@ figure {
   color: grey;
 }
 
+#extrav-txt{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* .backgroundcolor{
   max-height: 500px;
   max-width: 800px;
