@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>White Rose District</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<link rel="icon" href="Images\head image.png">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+    <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"> <img id="logo" style="max-width:120px" src="Images\Final Logo Centred SVG2.svg" alt=""> </a>
+				<button class="navbar-toggler" id="hey" type="button" data-toggle="collapse" data-target="#navbarResponsive" >
+						<span class="navbar-toggler-icon"></span>
+				</button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+		      <ul class="navbar-nav ml-auto">
+				      <li class="nav-item">
+						        <a class="nav-link" href="./index.html">Home</a>
+				      </li>
+				      <li class="nav-item">
+						        <a class="nav-link" href="./apparel.html">Apparel</a>
+				      </li>
+				      <li class="nav-item">
+						          <a class="nav-link" href="./collaborations.html">Collaborations</a>
+				      </li>
+							<li class="nav-item active">
+						          <a class="nav-link" href="./art-collections.html">Art Collections</a>
+				      </li>
+				      <li class="nav-item">
+						          <a class="nav-link" href="./about.html">About</a>
+				      </li>
+		      </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="slides" class="carousel slide" data-ride="carousel">
+			<ul class="carousel-indicators" id="imageslides" >
+				<li data-target="#slides" data-slide-to="0" class="active" style="list-style-type: none;"></li>
+				<li data-target="#slides" data-slide-to="1" style="list-style: none;">></li>
+				<li data-target="#slides" data-slide-to="2" style="list-style: none;">></li>
+			</ul>
+			<div class="carousel-inner" >
+				<div class="carousel-item active" id="showcolor">
+					<img class="backgroundcolor" src="Images\half face rose shadow.png" alt="">
+				</div>
+				<div class="carousel-item" id="showcolor">
+					<img class="backgroundcolor" src="Images\lighter sliced face.png" alt="">
+				</div>
+				<div class="carousel-item" id="showcolor">
+					<img class="backgroundcolor" src="Images\pool teeth.png" alt="">
+				</div>
+			</div>
+		</div>
+
+    <footer>
+			<div class="container-fluid padding">
+				<div class="row text-center">
+					<div class="col-md-4" >
+						<hr class="light">
+						<h5>Our hours</h5>
+						<hr class="light">
+						<p>666 666 666</p>
+						<p>whiterosedistrict@gmail.com</p>
+						<p>Street</p>
+						<p>City State zipcode</p>
+					</div>
+					<div class="col-md-4" id="initial-col">
+						<hr class="light">
+						<h5>Our hours</h5>
+						<hr class="light">
+						<p>Monday</p>
+						<p>saturday jdsolkjds</p>
+						<p>closed sundays</p>
+					</div>
+					<div class="col-md-4">
+						<hr class="light">
+						<h5>Kawabunga Dudes</h5>
+						<hr class="light">
+						<p>Yeah</p>
+						<p>Yeahh yeahhh</p>
+						<p>Yeahh yeahhh yeahhh</p>
+					</div>
+					<div class="col-12">
+						<hr class="light-100">
+						<h5>&copy; White Rose District Ltd.</h5>
+						<img src="Images\Final Logo Centred png.png" alt="" id="footer-image">
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js">
+		</script>
+		<script>
+			window.sr = ScrollReveal();
+			sr.reveal('.carousel slide .carousel-inner .carousel-item');
+			sr.reveal('.card');
+		</script>
+
+  </body>
+</html>
