@@ -13,7 +13,7 @@
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<link href="style.css" rel="stylesheet">
 </head>
-    <body>
+    <body id="art-top">
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html"> <img id="logo" style="max-width:120px" src="Images\Final Logo Centred SVG2.svg" alt=""> </a>
@@ -42,29 +42,10 @@
       </div>
     </nav>
 
-    <div id="slides" class="carousel slide" data-ride="carousel">
-			<ul class="carousel-indicators" id="imageslides" >
-				<li data-target="#slides" data-slide-to="0" class="active" style="list-style-type: none;"></li>
-				<li data-target="#slides" data-slide-to="1" style="list-style: none;">></li>
-				<li data-target="#slides" data-slide-to="2" style="list-style: none;">></li>
-			</ul>
-			<div class="carousel-inner" >
-				<div class="carousel-item active" id="showcolor">
-					<img class="backgroundcolor" src="Images\half face rose shadow.png" alt="">
-				</div>
-				<div class="carousel-item" id="showcolor">
-					<img class="backgroundcolor" src="Images\lighter sliced face.png" alt="">
-				</div>
-				<div class="carousel-item" id="showcolor">
-					<img class="backgroundcolor" src="Images\pool teeth.png" alt="">
-				</div>
-			</div>
-		</div>
-
 		<div class="container-fluid padding">
 			<div class="row text-center padding">
 				<div class="col-12">
-        	<h3>"Baby, I don´t think this is wonderland..."</h3>
+        	<h3>Baby, I don´t think this is wonderland...</h3>
     		</div>
 			</div>
 		</div>
@@ -122,6 +103,11 @@
 			</div>
 		</div>
 
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+			<a href="#art-top"> <button type="button" class="btn btn-outline-secondary-btn-lg" name="button">Back to top</button> </a>
+			<a href="index.html"> <button type="button" class="btn btn-outline-secondary-btn-lg float-right" name="button">Back to Home</button> </a>
+		</div>
+
     <footer>
 			<div class="container-fluid padding">
 				<div class="row text-center">
@@ -138,7 +124,7 @@
 		</script>
 		<script>
 			window.sr = ScrollReveal();
-			sr.reveal('.carousel slide .carousel-inner .carousel-item');
+			sr.reveal('.lead');
 			sr.reveal('.card');
 		</script>
 
