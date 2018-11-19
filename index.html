@@ -2,10 +2,16 @@
 <html lang="en">
 <head>
 	<title>White Rose District</title>
+
+	<!-- Google fonts link -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+	<!-- Icon for webpage and stating charset and content -->
 	<link rel="icon" href="Images\head image.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Additional required links for page functionality -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -14,6 +20,8 @@
 	<link href="style.css" rel="stylesheet">
 </head>
     <body id="home-top">
+
+		<!-- Navigation toggle bar -->
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html"> <img id="logo" style="max-width:120px" src="Images\Final Logo Centred SVG2.svg" alt=""> </a>
@@ -42,6 +50,7 @@
       </div>
     </nav>
 
+		<!-- Carousel slideshow -->
 		<div id="slides" class="carousel slide" data-ride="carousel">
 			<ul class="carousel-indicators" id="imageslides" >
 				<li data-target="#slides" data-slide-to="0" class="active" style="list-style-type: none;"></li>
@@ -61,20 +70,19 @@
 			</div>
 		</div>
 
-		<!-- <div class="container-fluid-padding">
+		<!-- Initial Welcome banner and information -->
+		<div class="container-fluid padding">
 			<div class="row welcome text-center">
 				<div class="col-12">
 				<h1 class="display-4">For the minimalistic eye in an extravagant reality.</h1>
 				</div>
 			</div>
-		</div> -->
-
+		</div>
 		<div class="container-fluid">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
 			</div>
-
 		<div class="container-fluid padding">
 			<div class="row text-center padding">
 				<div class="col-cs-12 col-sm-6 col-md-4">
@@ -94,7 +102,6 @@
 				</div>
 			</div>
 		</div>
-
 		<div class="container-fluid Padding">
 			<div class="row padding">
 				<div class="col-sm-12 col-md-12 col-lg-12">
@@ -109,20 +116,23 @@
 			</div>
 		</div>
 		<hr class="my-4">
-		<!-- <figure>
+
+		<!-- Fixed background image when scrolling-->
+		<figure>
 			<div class="fixed-wrap">
 				<div id="fixed">
 					<img id="barbed" src="Images\barbed lives.png" alt="">
 				</div>
 			</div>
-		</figure> -->
+		</figure>
 		<hr>
-		<!-- <div class="container-fluid-padding">
+
+		<!-- Header with cards and brief explanation, including redirecting to other sections -->
+		<div class="container-fluid padding">
 			<div class="row welcome text-center">
 				<h1 id="heading-txt"class="display-4 col-md-9 col-lg-12">For whose mind and heart reside in different places.</h1>
 				</div>
-		</div> -->
-
+		</div>
 		<div class="container-fluid padding">
 			<div class="row padding">
 				<div class="col-md-4">
@@ -158,6 +168,8 @@
 			</div>
 		</div>
 		<hr>
+
+		<!-- Responsive paragraph text and image -->
 		<div class="container-fluid Padding">
 			<div class="row padding">
 				<div class="col-md-7 col-lg-9">
@@ -171,10 +183,12 @@
 			</div>
 		</div>
 
+		<!-- Buttons to access top of page -->
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto">
 			<a href="#home-top"> <button type="button" class="btn btn-outline-secondary-btn-lg" name="button">Back to top</button> </a>
 		</div>
 
+		<!-- Website footer -->
 		<footer>
 			<div class="container-fluid padding">
 				<div class="row text-center">
@@ -187,6 +201,7 @@
 			</div>
 		</footer>
 
+		<!-- Script to use scroll-reveal for all cards and '.lead' class text -->
 		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js">
 		</script>
 		<script>
