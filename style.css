@@ -136,10 +136,6 @@ figure {
           transform: translateZ(0);
   will-change: transform;
 }
-/*--- Bootstrap Padding Fix --*/
-[class*="col-"] {
-    padding: 1rem;
-}
 
 #logo{
   max-width: 150px;
@@ -158,7 +154,7 @@ figure {
   color: grey;
 }
 
-#extrav-txt{
+#heading-txt{
   margin-left: auto;
   margin-right: auto;
 }
@@ -196,14 +192,14 @@ initial-col{
   padding: 5px;
 }
 
-/* .backgroundcolor{
-  max-height: 500px;
-  max-width: 800px;
-  display:block;
-        margin-left: auto;
-        margin-right: auto;
-  background-color: rgb(200, 200, 200);
-} */
+#home-links{
+  max-height: 400px;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)

@@ -10,10 +10,10 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
 	<link href="style.css" rel="stylesheet">
 </head>
-    <body>
+    <body id="home-top">
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html"> <img id="logo" style="max-width:120px" src="Images\Final Logo Centred SVG2.svg" alt=""> </a>
@@ -42,60 +42,67 @@
       </div>
     </nav>
 
-		<div class="container-fluid">
-			<div class="row-jumbotron">
-				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-					<p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+		<div id="slides" class="carousel slide" data-ride="carousel">
+			<ul class="carousel-indicators" id="imageslides" >
+				<li data-target="#slides" data-slide-to="0" class="active" style="list-style-type: none;"></li>
+				<li data-target="#slides" data-slide-to="1" style="list-style: none;">></li>
+				<li data-target="#slides" data-slide-to="2" style="list-style: none;">></li>
+			</ul>
+			<div class="carousel-inner" >
+				<div class="carousel-item active" id="showcolor">
+					<img class="backgroundcolor" src="Images\half face rose shadow.png" alt="">
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-					<a href="#"> <button type="button" class="btn btn-outline-secondary-btn-lg" name="button">Loerm ipsum</button> </a>
+				<div class="carousel-item" id="showcolor">
+					<img class="backgroundcolor" src="Images\lighter sliced face.png" alt="">
+				</div>
+				<div class="carousel-item" id="showcolor">
+					<img class="backgroundcolor" src="Images\pool teeth.png" alt="">
 				</div>
 			</div>
 		</div>
 
-		<div class="container-fluid-padding" id="extrav-txt">
+		<div class="container-fluid-padding">
 			<div class="row welcome text-center">
-				<h1 id="extrav-txt"class="display-4">Extravagant with minimalism</h1>
-				</div>
-				<hr>
-				<div class="col-12">
-					<p class="lead">Hey ho ha hi hellio </p>
+				<h1 id="heading-txt"class="display-4">For the minimalistic eye in an extravagant reality.</h1>
 				</div>
 		</div>
+
+		<div class="container-fluid">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
 
 		<div class="container-fluid padding">
 			<div class="row text-center padding">
 				<div class="col-cs-12 col-sm-6 col-md-4">
-					<i class="fas fa-code"></i>
-					<h3>HTML 5</h3>
-					<p>Lolaliohjds</p>
+					<i class="fas fa-dice-three"></i>
+					<h3>LUCK</h3>
+					<p>A haven for throw-away artists.</p>
 				</div>
 				<div class="col-cs-12 col-sm-6 col-md-4">
-					<i class="fas fa-code"></i>
-					<h3>HTML 5</h3>
-					<p>Lolaliohjds</p>
+					<i class="fas fa-dharmachakra"></i>
+					<h3>GUIDANCE</h3>
+					<p>A unity supported by our fear of gods.</p>
 				</div>
 				<div class="col-cs-12 col-sm-12 col-md-4">
-					<i class="fas fa-code"></i>
-					<h3>HTML 5</h3>
-					<p>Lolaliohjds</p>
+					<i class="fas fa-eye-slash"></i>
+					<h3>CENSORHIP</h3>
+					<p>A portal to freedom of expression.</p>
 				</div>
 			</div>
-			<hr class="my-4">
 		</div>
 
 		<div class="container-fluid Padding">
 			<div class="row padding">
-				<div class="col-md-12 col-lg-6">
-					<h2>If you build it...</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua en script.</p>
-					<br>
-					<a href="#" class="btn btn-primary">Find out more here...</a>
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<h2>Who are we?</h2>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
 				<div class="col-lg-6">
-					<img src="https://picsum.photos/200/300
-" alt="" class="img-fluid">
+					<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+						<a href="./about.html"> <button type="button" class="btn btn-outline-secondary-btn-lg" name="button">Learn More</button> </a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -107,81 +114,63 @@
 				</div>
 			</div>
 		</figure>
-
-		<button class="fun" data-toggle="collapse" data-target="#emoji">Click to see more...</button>
-		<div class="collapse">
-			<div class="container-fluid Padding">
-				<div class="row text-center">
-					<div class="col-sm-6 col-md-3">
-						<img src="https://picsum.photos/200/300
-" class="gif" alt="">
-					</div>
-					<div class="col-sm-6 col-md-3">
-						<img src=https://picsum.photos/200/300
- class="gif" alt="">
-					</div>
-					<div class="col-sm-6 col-md-3">
-						<img src="https://picsum.photos/200/300
-" class="gif" alt="">
-					</div>
+		<hr>
+		<div class="container-fluid-padding">
+			<div class="row welcome text-center">
+				<h1 id="heading-txt"class="display-4 col-md-9 col-lg-12">For whose mind and heart reside in different places.</h1>
 				</div>
-			</div>
-		</div>
-
-		<div class="container-fluid Padding">
-			<div class="row welcome text-centre">
-				<div class="col-12">
-					<h1 class="display-4">Meet the fleet of imaginations afloat on sea.</h1>
-				</div>
-			</div>
 		</div>
 
 		<div class="container-fluid padding">
 			<div class="row padding">
 				<div class="col-md-4">
 					<div class="card">
-						<img class="card-imd-top" src="Images\colthing card.png" alt="">
+						<img id="home-links" class="card-imd-top" src="Images\colthing card.png" alt="">
 						<div class="card-body">
-							<h4 class="card-title">Clothing and Apparel</h4>
-							<p>Completion of a blank canvas is your sensation. Feel the district, wear the district.</p>
+							<h3 class="card-title">Clothing and Apparel</h3>
+							<p class="lead">Completion of a blank canvas is your sensation. Feel the district, wear the district.</p>
 							<a href="./apparel.html" class="btn btn-outline-secondary">Be The District.</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="card">
-						<img class="card-imd-top" src="Images\COLLABORATIONSX.png" alt="">
+						<img id="home-links" class="card-imd-top" src="Images\COLLABORATIONSX.png" alt="">
 						<div class="card-body">
-							<h4 class="card-title">Upcoming Collaborations</h4>
-							<p>From the works of 'Pe-pe-perez' to many more, take a sneak preview of next season´s line.</p>
+							<h3 class="card-title">Upcoming Collaborations</h3>
+							<p class="lead">From the works of 'Pe-pe-perez' to many more, take a sneak preview of next season´s line.</p>
 							<a href="./collaborations.html" class="btn btn-outline-secondary">Be The District.</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="card">
-						<img class="card-imd-top" src="Images\artcard.png" alt="">
+						<img id="home-links" class="card-imd-top" src="Images\artcard.png" alt="">
 						<div class="card-body">
-							<h4 class="card-title">Art Works</h4>
-							<p>The collection of ideas and creativity from our collective, manifested for your perception. </p>
+							<h3 class="card-title">Art Works</h3>
+							<p class="lead">The collection of ideas and creativity from our collective, manifested for your perception. </p>
 							<a href="./art-collections.html" class="btn btn-outline-secondary">Be The District.</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
+		<hr>
 		<div class="container-fluid Padding">
 			<div class="row padding">
-				<div class="col-md-12 col-lg-6">
+				<div class="col-md-7 col-lg-9">
 					<h2>Lorem Ipsum</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					<br>
 				</div>
-				<div class="col-lg-6">
-					<img src="https://picsum.photos/300/200" alt="" class="img-fluid">
+				<div class="col-sm-12 col-md-5 col-lg-3 mx-auto">
+					<img style="float-right" src="https://www.bls.gov/ooh/images/2255.jpg" alt="" class="img-fluid">
 				</div>
 			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto">
+			<a href="#home-top"> <button type="button" class="btn btn-outline-secondary-btn-lg" name="button">Back to top</button> </a>
 		</div>
 
 		<footer>
@@ -200,7 +189,7 @@
 		</script>
 		<script>
 			window.sr = ScrollReveal();
-			sr.reveal('.carousel slide .carousel-inner .carousel-item');
+			sr.reveal('.lead');
 			sr.reveal('.card');
 		</script>
 
