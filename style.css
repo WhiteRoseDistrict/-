@@ -122,6 +122,21 @@ figure {
   margin-right: auto;
 }
 
+/* About page images Styling */
+#soldier{
+  max-width: 150px;
+  max-height: 200px;
+}
+
+#girl{
+  max-width: 150px;
+  max-height: 200px;
+}
+
+.about-text{
+  margin: auto;
+}
+
 /* Social media icons styling */
 #social{
   margin: auto;
@@ -260,6 +275,12 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
+  #soldier{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 
 /*
