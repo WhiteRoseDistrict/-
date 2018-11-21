@@ -138,6 +138,10 @@ figure {
   margin: auto;
 }
 
+#about-hr{
+  width: 70%;
+}
+
 /* Social media icons styling */
 #social{
   margin: auto;
@@ -316,6 +320,9 @@ footer {
     color: #262626;
     margin: 0 5px;
     transition: .5s;
+}
+.social{
+  padding-right: 10%;
 }
 }
 
