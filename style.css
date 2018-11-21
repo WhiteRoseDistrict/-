@@ -257,6 +257,7 @@ footer {
   .social{
     padding-right: 40%;
   }
+
 }
 
 @media (max-width: 576px) {
@@ -277,6 +278,11 @@ footer {
     margin-right: auto;
   }
   #soldier{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #girl{
     display: block;
     margin-left: auto;
     margin-right: auto;
